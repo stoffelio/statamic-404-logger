@@ -1,5 +1,8 @@
 {
     "name": "stoffelio/statamic-404-logger",
+    "license": "MIT",
+    "type": "statamic-addon",
+    "description": "Statamic addon to automatically log all 404 requests",
     "autoload": {
         "psr-4": {
             "Stoffelio\\Statamic404Logger\\": "src"
@@ -15,5 +18,8 @@
                 "Stoffelio\\Statamic404Logger\\ServiceProvider"
             ]
         }
+    },
+    "require": {
+      "statamic/cms": "^3.0||^4.0"
     }
 }
