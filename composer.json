@@ -1,0 +1,19 @@
+{
+    "name": "stoffelio/statamic-404-logger",
+    "autoload": {
+        "psr-4": {
+            "Stoffelio\\Statamic404Logger\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Statamic 404 Logger",
+            "description": "Statamic 404 Logger addon"
+        },
+        "laravel": {
+            "providers": [
+                "Stoffelio\\Statamic404Logger\\ServiceProvider"
+            ]
+        }
+    }
+}
