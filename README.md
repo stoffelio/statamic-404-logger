@@ -2,6 +2,12 @@
 
 > Statamic addon to automatically log all 404 requests.
 
+## Requirements
+
+- Statamic v6
+
+For Statamic v3, v4 and v5, use v1.1.0.
+
 ## Features
 
 Any request to your website resulting in a 404 error will be written to a log file. The file contains the timestamp as well as the exact url that was requested. Use the information to fix your internal links or redirect users to the correct resource.
@@ -17,3 +23,7 @@ composer require stoffelio/statamic-404-logger
 ```
 
 Optional: Change the name of the log file and the retention period in `config/error404-log.php`
+
+## About
+
+Built and maintained by [Alexander Stoffel](https://stoffel.io/), freelance Statamic and Laravel developer.
